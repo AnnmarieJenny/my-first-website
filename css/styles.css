@@ -1,3 +1,138 @@
-h1 {
-  color: orange;
+*{
+  font-family: Helvetica, sans-serif;
+  background-color: #5F9EA0;
+  }
+
+
+.light-text {
+  color: #F5FFFA;
+  font-size: 16px;
+  padding-left: 25px;
+  }
+
+.img-text {
+  color: #F5FFFA;
+  font-size: 16px;
+  padding-left: 100px;
+  }
+
+.questions {
+  position: relative;
+  width: auto;
+  display: inline-block;
+  float: left;
+  text-align: left;
+  margin-top: 20px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  color: #F5FFFA;
+  padding-left: 25px;
+  font-style: bold;
 }
+
+.answers {
+  position: relative;
+  width: auto;
+  display: inline-block;
+  margin-top: 15px;
+  background-size: contain;
+}
+
+.answer {
+   border: 1px solid #FDF5E6;
+   padding: 10px;
+   border-radius: 6px;
+   margin-bottom: 10px;
+   background-color: #CD853F;
+   text-align: center;
+   color: #F5FFFA;
+   font-family: Helvetica, sans-serif;
+}
+
+.answer:hover {
+   background-color: #eee;
+   cursor: pointer;
+}
+
+.result-words {
+  position: relative;
+  text-align: center;
+  font-family: monospace;
+  font-size: 16px;
+  color: #FFDEAD;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+
+}
+
+.result-title {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #FFDEAD;
+  font-family: Helvetica, sans-serif;
+}
+
+
+.button-text {
+  color: #F5FFFA;
+  font-size: 16px;
+  margin-left: 100px
+}
+
+h1{
+  color: #F5FFFA;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+h3{
+  color: #F5FFFA;
+  padding-left: 25px;
+  }
+
+
+img {
+  max-width: 60%;
+  height: auto;
+  padding-left: 40px;
+  padding-top: 0px;
+
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#descrip-text{
+  color: #F5FFFA;
+  font-size: 16px;
+  padding-left: 25px;
+}
+
+.text-column{
+  column-count: 2;
+  column-width: 100px;
+  }
+
+#eligiblity-container::before {
+  content: "";
+  background-color: grey;
+}
+
+
+/*# description {
+  padding: 15 px
+}*/
+
+/* selector {
+  rulename:value;
+
+} */
